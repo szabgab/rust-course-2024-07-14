@@ -7,7 +7,7 @@ fn main() {
     // let answer = answer.trim().parse::<i32>().unwrap();
     // println!("{answer}");
 
-    let x = 7889;
-    let y:i8 = 10;
+    let x = 78_i8;
+    let y = 10_i16;
     let z = x + y;
 }
