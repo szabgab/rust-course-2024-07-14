@@ -8,6 +8,6 @@ fn main() {
     // println!("{answer}");
 
     let x = 78_i8;
-    let y = 10_i16;
-    let z = x + y;
+    let y = 1000_i16;
+    let z = x + y as i8;
 }
