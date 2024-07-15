@@ -56,6 +56,7 @@ fn fun_name(args: Vec<String>) {
         // println!("{err}");
 
         let content = std::fs::read_to_string(filename).unwrap_or_else(|err| {
+            
             println!("{err}");
             String::from("hello")
         });
