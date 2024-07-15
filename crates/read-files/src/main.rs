@@ -23,9 +23,10 @@ fn fun_name(args: Vec<String>) {
         let content = match std::fs::read_to_string(filename) {
             Ok(val) => val,
             Err(err) => {
-                eprintln!("{err}")
+                eprintln!("{err}");
+                String::new()
             }
         };
-
+        println("{cont")
     }
 }
