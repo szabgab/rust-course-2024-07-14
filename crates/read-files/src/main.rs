@@ -4,7 +4,12 @@ fn main() {
 
     for filename in &args[1..] {
         println!("{filename}");
-        let content = std::fs::read_to_string(filename).unwrap();
-        println!("{:?}", content);
+        // let content = std::fs::read_to_string(filename).unwrap();
+        // let content = std::fs::read_to_string(filename).expect("blblbla");
+        // println!("{:?}", content);
+        match std::fs::read_to_string(filename) {
+            Ok(val) => todo!(),
+            Err(err) => todo!(),
+        }
     }
 }
