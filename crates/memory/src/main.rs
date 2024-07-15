@@ -1,5 +1,6 @@
 fn main() {
     let mut text = String::new();
+    // let mut text = String::from("a");
 
     println!("{} {} {:p} {:?}", text.len(), text.capacity(), &text, text.as_ptr());
     text.push('a');
@@ -16,4 +17,5 @@ fn main() {
     text.push_str("123456789012345678kjhdsfksahfka");
     println!("{} {} {:p} {:?}", text.len(), text.capacity(), &text, text.as_ptr());
 
+    
 }
