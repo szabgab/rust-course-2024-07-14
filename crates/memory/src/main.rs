@@ -16,6 +16,4 @@ fn main() {
 
     text.push_str("123456789012345678kjhdsfksahfka");
     println!("{} {} {:p} {:?}", text.len(), text.capacity(), &text, text.as_ptr());
-
-    text.
 }
