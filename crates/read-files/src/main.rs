@@ -8,8 +8,11 @@ fn main() {
         // let content = std::fs::read_to_string(filename).expect("blblbla");
         // println!("{:?}", content);
         match std::fs::read_to_string(filename) {
-            Ok(val) => todo!(),
-            Err(err) => todo!(),
+            Ok(val) => println!("{val}"),
+            Err(err) => {
+                eprintln!("{err}");
+                std::process::exit(1);
+            }
         }
     }
 }
