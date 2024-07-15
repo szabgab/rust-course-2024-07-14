@@ -2,13 +2,15 @@ fn main() {
     let text = String::from("Foo Bar\n");
     println!("{text}");
 
-    //let new_name = name.trim_end().to_owned();
-    println!("{:p}", &text);
+    println!("{:p} {:?} {}", &text, text.as_ptr(), text.len());
 
-    let other = &text;
-    println!("{other}");
+    let short = text.trim_end().to_owned();
+    println!("{:p} {:?} {}", &text, text.as_ptr(), text.len());
+    
+    // let other = &text;
+    // println!("{other}");
 
-    // text = other;
-    println!("{text}");
+    // // text = other;
+    // println!("{text}");
 
 }
