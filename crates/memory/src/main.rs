@@ -7,11 +7,13 @@ fn main() {
     text.push('😁');
     println!("{} {} {:p} {:?}", text.len(), text.capacity(), &text, text.as_ptr());
 
-    // let hi = "";
+    let hi = String::from("hi");
+    println!("{} {} {:p} {:?}", text.len(), text.capacity(), &hi, hi.as_ptr());
+
     text.push_str("qqrq");
     println!("{} {} {:p} {:?}", text.len(), text.capacity(), &text, text.as_ptr());
 
-    text.push_str("123456789012345678");
+    text.push_str("123456789012345678kjhdsfksahfka");
     println!("{} {} {:p} {:?}", text.len(), text.capacity(), &text, text.as_ptr());
 
 }
