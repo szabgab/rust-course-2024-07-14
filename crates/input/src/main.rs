@@ -13,8 +13,13 @@ fn main() {
     //println!("{z}");
     //
     //
-    let x = 3;
-    if x != 0 {
-        println!("if is not 0");
-    }
+    //let x = 3;
+    //if x != 0 {
+    //    println!("if is not 0");
+    //}
+    //
+    //
+    let text = "hello";
+
+    let text = String:from("hello");
 }
