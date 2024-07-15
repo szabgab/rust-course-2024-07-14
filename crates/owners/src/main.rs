@@ -1,6 +1,7 @@
 fn main() {
     let text = "Foo Bar";
-    let other = &text[0..3];
+    // let other = &text[0..3];
+    let other = &text[4..];
     println!("{other}");
 
     // let text = String::from("Foo Bar\n");
