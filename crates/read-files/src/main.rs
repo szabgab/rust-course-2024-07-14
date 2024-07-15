@@ -20,13 +20,12 @@ fn fun_name(args: Vec<String>) {
         //     }
         // }
 
-        match std::fs::read_to_string(filename) {
-            Ok(val) => println!("{val}"),
+        let content = match std::fs::read_to_string(filename) {
+            Ok(val) => val,
             Err(err) => {
-                eprintln!("{err}");
-                return;
+                eprintln!("{err}")
             }
-        }
+        };
 
     }
 }
