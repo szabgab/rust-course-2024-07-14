@@ -7,8 +7,14 @@ fn main() {
     // let answer = answer.trim().parse::<i32>().unwrap();
     // println!("{answer}");
 
-    let x = 78_i8;
-    let y = 1000_i16;
-    let z = x + y as i8;
-    println!("{z}");
+    //let x = 78_i8;
+    //let y = 1000_i16;
+    //let z = x + y as i8;
+    //println!("{z}");
+    //
+    //
+    let x = 3;
+    if x != 0 {
+        println!("if is not 0");
+    }
 }
