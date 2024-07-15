@@ -40,15 +40,13 @@ fn fun_name(args: Vec<String>) {
         // };
         // println!("{content}");
 
-        // let content = match std::fs::read_to_string(filename) {
-        //     Ok(val) => val,
-        //     Err(err) => {
-        //         eprintln!("{err}");
-        //         String::new()
-        //     }
-        // };
-        // println!("{content}");
+        // if let Ok(content) = std::fs::read_to_string(filename) {
+        //     println!("{content}");
+        // } else {
+        //     eprintln!("error");
+        // }
 
+        std::fs::read_to_string(filename)
 
     }
 }
