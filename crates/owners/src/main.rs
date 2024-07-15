@@ -2,6 +2,9 @@ fn main() {
     let text = String::from("Foo Bar\n");
     println!("{text}");
 
+    // ptr  
+    // len
+    // capacity
     println!("{:p} {:?} {}", &text, text.as_ptr(), text.len());
 
     let short = text.trim_end().to_owned();
