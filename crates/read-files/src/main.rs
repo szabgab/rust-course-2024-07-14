@@ -4,6 +4,7 @@ fn main() {
 
     for filename in &args[1..] {
         println!("{filename}");
-        std::
+        let content = std::fs::read_to_string(filename);
+        println!("{:?}", content);
     }
 }
