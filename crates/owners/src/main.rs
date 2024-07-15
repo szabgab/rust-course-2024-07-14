@@ -5,6 +5,7 @@ fn main() {
     println!("{:p} {:?} {}", &text, text.as_ptr(), text.len());
 
     let short = text.trim_end().to_owned();
+    println!("{:p} {:?} {}", &short, short.as_ptr(), short.len());
     println!("{:p} {:?} {}", &text, text.as_ptr(), text.len());
     
     // let other = &text;
