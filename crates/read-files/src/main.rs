@@ -21,23 +21,34 @@ fn fun_name(args: Vec<String>) {
         // }
 
 
-        match std::fs::read_to_string(filename) {
-            Ok(val) => {
-                println!("{val}");
-                // ...
-            },
-            Err(err) => {
-                eprintln!("{err}");
-            }
-        };
+        // match std::fs::read_to_string(filename) {
+        //     Ok(val) => {
+        //         println!("{val}");
+        //         // ...
+        //     },
+        //     Err(err) => {
+        //         eprintln!("{err}");
+        //     }
+        // };
 
-        let content = match std::fs::read_to_string(filename) {
-            Ok(val) => val,
-            Err(err) => {
-                eprintln!("{err}");
-                String::new()
-            }
-        };
-        println!("{content}");
+        // let content = match std::fs::read_to_string(filename) {
+        //     Ok(val) => val,
+        //     Err(err) => {
+        //         eprintln!("{err}");
+        //         String::new()
+        //     }
+        // };
+        // println!("{content}");
+
+        // let content = match std::fs::read_to_string(filename) {
+        //     Ok(val) => val,
+        //     Err(err) => {
+        //         eprintln!("{err}");
+        //         String::new()
+        //     }
+        // };
+        // println!("{content}");
+
+
     }
 }
