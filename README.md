@@ -17,10 +17,10 @@ ownership,
 vectors
 enums,
 hashMap
-files
-filesystem
 
 4)
+files
+filesystem
 structs,
 functions,
 traits,
@@ -29,6 +29,7 @@ simple macro to have default parameters for functions.
 reading JSON
 
 5)
+lifetime specifiers
 regex
 command line interface
 iterators
