@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 struct Foo {
     name: String,
 }
@@ -10,10 +11,10 @@ fn main() {
         name: String::from("abc"),
     };
 
-    // match a {
-    //     b => println!("matched"),
-    //     _ => println!("not matched"),
-    // }
+    match a {
+        b => println!("matched"),
+//        _ => println!("not matched"),
+    }
 
     // match a {
     //     Foo { name: String::from("abxc") } => println!("matched"),
