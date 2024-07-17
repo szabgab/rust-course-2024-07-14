@@ -1,8 +1,11 @@
 fn main() {
     let text = "שלום עולם";
     println!("{}", text.chars().nth(1).unwrap());
-    println!("{}", &text[1..3]);
-
+    println!("{}", &text[0..=3]);
+    for ch in text.chars() {
+        println!("{}", ch);
+    }
+    let chars = text.chars().collect
 
 
     // let mut text = String::from("The black cat climbed the green tree!");
