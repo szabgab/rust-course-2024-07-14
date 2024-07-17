@@ -7,6 +7,7 @@ fn main() {
     let d = 29_i8;
     println!("{}", add8(c, d));
 
+    println!("{}", add(a, b));
 }
 
 fn add32(x: i32, y: i32) -> i32 {
