@@ -1,9 +1,10 @@
 fn main() {
     let text = "שלום עולם";
-    println!("{}", text.chars().nth(2).unwrap());
+    println!("{}", text.chars().nth(1).unwrap());
+    println!("{}", &text[1..3]);
 
 
-    
+
     // let mut text = String::from("The black cat climbed the green tree!");
     // let x = &text[0..3];
     // println!("{}", x);
