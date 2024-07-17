@@ -10,10 +10,16 @@ fn main() {
         name: String::from("abc"),
     };
 
+    // match a {
+    //     b => println!("matched"),
+    //     _ => println!("not matched"),
+    // }
+
     match a {
-        b => println!("matched"),
+        Foo { name => String::from("abc") } => println!("matched"),
         _ => println!("not matched"),
     }
+
 
     println!("Hello, world!");
 }
