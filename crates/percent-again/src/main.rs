@@ -1,13 +1,15 @@
+//#[derive(PartialEq)]
 struct Foo {
     name: String,
+    num: u32,
 }
 
 fn main() {
     let a = Foo {
-        name: String::from("xabc"),
+        name: String::from("xabc", num: 2),
     };
     let b = Foo {
-        name: String::from("abc"),
+        name: String::from("abc", num: 3),
     };
 
     match a {
