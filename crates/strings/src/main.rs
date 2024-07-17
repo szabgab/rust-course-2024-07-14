@@ -8,7 +8,6 @@ fn main() {
     let chars = text.chars().collect::<Vec<_>>();
     println!("{:?}", chars);
     println!("{:?}", &chars[1..4]);
-    chars.la
 
     // let mut text = String::from("The black cat climbed the green tree!");
     // let x = &text[0..3];
