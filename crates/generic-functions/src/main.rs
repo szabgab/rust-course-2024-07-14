@@ -8,6 +8,7 @@ fn main() {
     println!("{}", add8(c, d));
 
     println!("{}", add(a, b));
+    println!("{}", add(c, d));
 }
 
 fn add32(x: i32, y: i32) -> i32 {
@@ -18,6 +19,6 @@ fn add8(x: i8, y: i8) -> i8 {
     x + y
 }
 
-fn add<T>(x: T, y: T) -> T {
+fn add<T: std::ops::Add<Output = T>>(x: T, y: T) -> T {
     x + y
 }
