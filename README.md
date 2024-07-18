@@ -35,6 +35,8 @@ Approximate plan
 * command line interface
 * iterators
 
+* Example function returning error and use of the ? mark
+
 6)
 * threading
 * ruff
