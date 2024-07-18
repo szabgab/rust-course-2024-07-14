@@ -8,35 +8,36 @@ We read some files. Arrays. String memory allocation.
 const, chars
 A bit of enums.
 
+3)
+* strings
+* ownership
+* vectors
+* enums
+* hashMap
+
 ------------------------
 Approximate plan
 
-3)
-strings,
-ownership,
-vectors
-enums,
-hashMap
 
 4)
-files
-filesystem
-structs,
-functions,
-traits,
-methods,
-simple macro to have default parameters for functions.
-reading JSON
+* files
+* filesystem
+* structs
+* functions
+* traits
+* methods
+* simple macro to have default parameters for functions.
+* reading JSON
 
 5)
-lifetime specifiers
-regex
-command line interface
-iterators
+* lifetime specifiers
+* regex
+* command line interface
+* iterators
 
 6)
-threading
-ruff
+* threading
+* ruff
 
 
 
