@@ -30,9 +30,24 @@ Approximate plan
 * simple macro to have default parameters for functions.
 * reading JSON
     * what if the json contains  a field with `null` value?
-    * can serde_json handle JSON lines https://jsonlines.org/
+    * can serde_json handle JSON lines https://jsonlines.org/   Maybe this: https://crates.io/crates/serde-jsonlines
     * read the yaml files of the kantoniko database
     * read the Cargo.toml file
+
+Exercise
+Create a vector of 3 strings;
+print the len. capacity and point {:p}   var.as_ptr  of the vector
+
+add 5 more elements to the vector
+print again the same thing
+
+add 2 more element 
+print again
+
+get fed up with printing create a macro instead of the 2nd line above
+
+
+
 
 
 
@@ -52,3 +67,10 @@ Approximate plan
 
 
 what is the story with the percent* crates? why do they always match?
+
+maybe:
+
+* async
+* unsafe
+* drop - how are resource freed (e.g. filehandle, etc.)
+
