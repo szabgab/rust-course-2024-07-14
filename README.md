@@ -21,6 +21,7 @@ Approximate plan
 
 4)
 * files
+    * https://github.com/szabgab/wc.rs
 * filesystem
 * structs
 * traits
@@ -28,10 +29,10 @@ Approximate plan
 * functions
 * simple macro to have default parameters for functions.
 * reading JSON
-    what if the json contains  a field with `null` value?
-    can serde_json handle JSON lines https://jsonlines.org/
-    read the yaml files of the kantoniko database
-    read the Cargo.toml file
+    * what if the json contains  a field with `null` value?
+    * can serde_json handle JSON lines https://jsonlines.org/
+    * read the yaml files of the kantoniko database
+    * read the Cargo.toml file
 
 
 
