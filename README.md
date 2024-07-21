@@ -52,15 +52,17 @@ get fed up with printing create a macro instead of the 2nd line above
 
 
 5)
-* lifetime specifiers
-* regex
+* async (http)
+* modules
 * command line interface
 * iterators
+* lifetime specifiers
+* Error handling
 
-* Example function returning error and use of the ? mark
 
 6)
 * threading
+* regex
 * ruff
 
 
@@ -70,7 +72,6 @@ what is the story with the percent* crates? why do they always match?
 
 maybe:
 
-* async
 * unsafe
 * drop - how are resource freed (e.g. filehandle, etc.)
 
